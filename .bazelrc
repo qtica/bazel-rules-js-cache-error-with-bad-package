@@ -1,0 +1,6 @@
+common:rbe --define=EXECUTOR=remote
+common:rbe --host_platform=//platforms:remote
+common:rbe --platforms=//platforms:remote
+common:rbe --extra_execution_platforms=//platforms:remote
+
+try-import %workspace%/user.bazelrc

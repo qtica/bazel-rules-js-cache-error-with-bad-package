@@ -100,7 +100,7 @@ bazel clean --expunge && bazel build //:.aspect_rules_js/node_modules/pngjs@7.0.
 Noteable Warning:
 
 ```
-WARNING: Remote Cache: $OUTPUT_BASE/77389c85a89bd7de7f38028f946643cc/execroot/_main/bazel-out/k8-fastbuild/bin/node_modules/.aspect_rules_js/pngjs@7.0.
+WARNING: Remote Cache: $OUTPUT_BASE/77389c85a89bd7de7f38028f946643cc/execroot/_main/bazel-out/k8-fastbuild/bin/node_modules/.aspect_rules_js/pngjs@7.0.0/node_modules/pngjs/lib/packer.js (Permission denied)
 ```
 
 Full Log:
